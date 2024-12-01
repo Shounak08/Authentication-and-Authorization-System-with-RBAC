@@ -30,6 +30,7 @@ Middleware: Custom authentication and authorization logic
 1. Clone the Repository
 
 git clone https://github.com/your-username/auth-rbac-system.git
+
 cd auth-rbac-system
 
 2. Install Dependencies
@@ -86,8 +87,11 @@ Viewer	READ
 
 # Built With
 Node.js
+
 Express.js
+
 MongoDB
+
 JWT
 
 
@@ -105,6 +109,8 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 # Acknowledgements
 Express Documentation
+
 JWT Documentation
+
 MongoDB Documentation
 
