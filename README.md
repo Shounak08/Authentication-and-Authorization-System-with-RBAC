@@ -1,12 +1,12 @@
 # Authentication and Authorization System with RBAC
 A complete Node.js application for implementing Authentication and Authorization with Role-Based Access Control (RBAC). This project demonstrates user registration, login with JWT, and protected routes based on user roles and permissions.
 
-#Features
+# Features
 Authentication: User registration with hashed passwords.
 User login with JWT (JSON Web Tokens).
 
 
-Authorization with RBAC:
+# Authorization with RBAC:
 Define roles (e.g., Admin, Editor, Viewer).
 Assign permissions (CREATE, READ, UPDATE, DELETE) to roles.
 Enforce role-based access control on APIs.
