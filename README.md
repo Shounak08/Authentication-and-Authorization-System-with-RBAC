@@ -29,7 +29,7 @@ Middleware: Custom authentication and authorization logic
 # Installation Process
 1. Clone the Repository
 
-git clone https://github.com/your-username/auth-rbac-system.git
+git clone [https://github.com/your-username/auth-rbac-system.git](https://github.com/Shounak08/Authentication-and-Authorization-System-with-RBAC.git)
 
 cd auth-rbac-system
 
