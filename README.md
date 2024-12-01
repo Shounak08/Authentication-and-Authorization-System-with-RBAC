@@ -16,6 +16,37 @@ Enforce role-based access control on APIs.
 Role-specific access to resources based on permissions.
 
 
+# Structure
+
+project/
+├── server.js         # Entry point
+
+├── models/           # MongoDB models
+
+│   ├── User.js
+
+│   ├── Role.js
+
+├── routes/           # API routes
+
+│   ├── auth.js
+
+│   ├── protected.js
+
+├── middleware/       # Middleware
+
+│   ├── auth.js
+
+│   └── rbac.js
+
+├── config/           # Configuration files
+
+│   └── db.js
+
+└── .env              # Environment variables
+
+
+
 
 # Tech Stack
 Backend: Node.js, Express.js
