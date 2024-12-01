@@ -12,12 +12,12 @@ Assign permissions (CREATE, READ, UPDATE, DELETE) to roles.
 Enforce role-based access control on APIs.
 
 
-Protected Routes:
+# Protected Routes:
 Role-specific access to resources based on permissions.
 
 
 
-Tech Stack
+# Tech Stack
 Backend: Node.js, Express.js
 Database: MongoDB
 Authentication: JSON Web Tokens (JWT)
@@ -26,24 +26,7 @@ Middleware: Custom authentication and authorization logic
 
 
 
-Project Structure
-project/
-├── server.js         # Entry point
-├── models/           # MongoDB models
-│   ├── User.js
-│   ├── Role.js
-├── routes/           # API routes
-│   ├── auth.js
-│   ├── protected.js
-├── middleware/       # Middleware
-│   ├── auth.js
-│   └── rbac.js
-├── config/           # Configuration files
-│   └── db.js
-└── .env              # Environment variables
-
-
-Installation Process
+# Installation Process
 1. Clone the Repository
 
 git clone https://github.com/your-username/auth-rbac-system.git
@@ -65,7 +48,7 @@ npm start
 The server will start on http://localhost:5000.
 
 
-Register a User:
+# Register a User:
 
 POST /api/auth/register
 {
@@ -75,7 +58,7 @@ POST /api/auth/register
 }
 
 
-Login to Get JWT Token:
+# Login to Get JWT Token:
 POST /api/auth/login
 {
   "username": "admin",
@@ -90,7 +73,7 @@ Response:
 
 
 
-Access a Protected Route: Use the JWT token in the Authorization header:
+# Access a Protected Route: Use the JWT token in the Authorization header:
 
 Authorization: Bearer JWT_TOKEN_HERE
 Roles and Permissions
@@ -101,24 +84,24 @@ Viewer	READ
 
 
 
-Built With
+# Built With
 Node.js
 Express.js
 MongoDB
 JWT
 
 
-Contributing
-Contributions are welcome! Feel free to:
+# Contributing
+
 Fork the repository
 Create a feature branch
 Submit a pull request
 
 
-License
+# License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgements
+# Acknowledgements
 Express Documentation
 JWT Documentation
 MongoDB Documentation
